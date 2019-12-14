@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2615356A23A5757B0056004C /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615356923A5757B0056004C /* Notifications.swift */; };
+		26C2E68423A1E749002EB525 /* BMICategorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C2E68323A1E749002EB525 /* BMICategorizer.swift */; };
 		26E64D2C23A1B824005E8333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E64D2B23A1B824005E8333 /* AppDelegate.swift */; };
 		26E64D2E23A1B824005E8333 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E64D2D23A1B824005E8333 /* ViewController.swift */; };
 		26E64D3123A1B824005E8333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E64D2F23A1B824005E8333 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2615356923A5757B0056004C /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		26C2E68323A1E749002EB525 /* BMICategorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICategorizer.swift; sourceTree = "<group>"; };
 		26E64D2823A1B824005E8333 /* IOS_Test_BMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_Test_BMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E64D2B23A1B824005E8333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26E64D2D23A1B824005E8333 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				26E64D3723A1B826005E8333 /* LaunchScreen.storyboard */,
 				26E64D3A23A1B826005E8333 /* Info.plist */,
 				26E64D3223A1B824005E8333 /* IOS_Test_BMI.xcdatamodeld */,
+				26C2E68323A1E749002EB525 /* BMICategorizer.swift */,
+				2615356923A5757B0056004C /* Notifications.swift */,
 			);
 			path = IOS_Test_BMI;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2615356A23A5757B0056004C /* Notifications.swift in Sources */,
 				26E64D2E23A1B824005E8333 /* ViewController.swift in Sources */,
 				26E64D3423A1B824005E8333 /* IOS_Test_BMI.xcdatamodeld in Sources */,
+				26C2E68423A1E749002EB525 /* BMICategorizer.swift in Sources */,
 				26E64D2C23A1B824005E8333 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
