@@ -9,6 +9,6 @@
 import Foundation
 
 extension Notification.Name {
-    static let darkModeEnabled = Notification.Name("com.AbataProduction.BMI-Calculator.notifications.darkModeEnabled")
-    static let darkModeDisabled = Notification.Name("com.AbataProduction.BMI-Calculator.notifications.darkModeDisabled")
+    static let darkModeEnabled = Notification.Name("com.AbataProduction.IOS_Test_BMI.notifications.darkModeEnabled")
+    static let darkModeDisabled = Notification.Name("com.AbataProduction.IOS_Test_BMI.notifications.darkModeDisabled")
 }
